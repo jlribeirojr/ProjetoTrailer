@@ -1,0 +1,55 @@
+body {
+  font-family: "bebas Neue", cursive;
+  text-align: center;
+  background-color: #141414;
+}
+.container {
+  text-align: center;
+  padding: 20px;
+}
+.page-title {
+  margin: 15px 15px;
+  text-align: left;
+  color: red;
+}
+.page-subtitle {
+  color: white;
+  margin-top: 5px;
+  font-size: 50px;
+  font-weight: bold;
+}
+#video iframe {
+  margin: 10px;
+}
+iframe {
+  width: 560px;
+  height: 315px;
+  margin: 10px;
+  border-radius: 10px;
+  border: solid red;
+}
+.form-wrapper {
+  margin: 0 0 15px;
+}
+.form-wrapper input {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 10px;
+  border: solid black;
+}
+.form-wrapper button {
+  border: 0;
+  color: white;
+  background: #e50914;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.form-wrapper button:hover {
+  opacity: 0.5;
+}
